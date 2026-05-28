@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Purchase the Fall Limited Edition Sneakers. Featuring a durable rubber outer sole, they are your perfect casual wear companion.">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,19 +91,19 @@
             <img src="/images/image-product-1.jpg" data-index="0" alt="Sneakers limited edition" class="gallery__main-img" id="main-product-image">
           </div> <!--.gallery__main-view-->
 
-          <div class="gallery__thumbnails">
-            <button type="button" class="gallery__thumb-wrapper thumb-is-active" data-target="/images/image-product-1.jpg" data-index="0" aria-label="View image 1" aria-selected="true">
+          <div class="gallery__thumbnails" role="tablist" aria-label="Image Gallery">
+            <button type="button" class="gallery__thumb-wrapper thumb-is-active" data-target="/images/image-product-1.jpg" data-index="0" role="tab" aria-label="View image 1" aria-selected="true">
               <img src="/images/image-product-1-thumbnail.jpg" alt="" aria-hidden="true" class="gallery__thumb-img">
             </button>
-            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-2.jpg" data-index="1" aria-label="View image 2" aria-selected="false">
+            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-2.jpg" data-index="1" role="tab" aria-label="View image 2" aria-selected="false">
               <img src="/images/image-product-2-thumbnail.jpg" alt="" aria-hidden="true" class="gallery__thumb-img">
             </button>
-            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-3.jpg" data-index="2" aria-label="View image 3" aria-selected="false"> 
+            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-3.jpg" data-index="2" role="tab" aria-label="View image 3" aria-selected="false"> 
               <img src="/images/image-product-3-thumbnail.jpg" alt="" aria-hidden="true" class="gallery__thumb-img">
             </button>
-            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-4.jpg" data-index="3" aria-label="View image 4" aria-selected="false">
+            <button type="button" class="gallery__thumb-wrapper" data-target="/images/image-product-4.jpg" data-index="3" role="tab" aria-label="View image 4" aria-selected="false">
               <img src="/images/image-product-4-thumbnail.jpg" alt="" aria-hidden="true" class="gallery__thumb-img">
-    </button>
+            </button>
           </div> <!--.gallery__thumbnail-->
 
         </div> <!--.gallery-->
@@ -195,17 +196,17 @@
                 <img src="/images/icon-next.svg" alt="" aria-hidden="true">
           </button> <!--.carousel__btn--next-->
 
-          <div class="gallery__thumbnails gallery__thumbnails--lightbox">
-              <button type="button" class="gallery__thumb-wrapper-lightbox thumb-is-active" data-target="0" aria-label="View expanded image 1" aria-selected="true">
+          <div class="gallery__thumbnails gallery__thumbnails--lightbox" role="tablist">
+              <button type="button" class="gallery__thumb-wrapper-lightbox thumb-is-active" data-target="0" role="tab" aria-label="View expanded image 1" aria-selected="true">
                 <img src="/images/image-product-1-thumbnail.jpg" class="gallery__thumb-img" aria-hidden="true"> 
               </button>
-              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="1"  aria-label="View expanded image 2" aria-selected="true">
+              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="1" role="tab"  aria-label="View expanded image 2" aria-selected="true">
                 <img src="/images/image-product-2-thumbnail.jpg" class="gallery__thumb-img" aria-hidden="true">
               </button>
-              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="2"  aria-label="View expanded image 3" aria-selected="true"> 
+              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="2" role="tab" aria-label="View expanded image 3" aria-selected="true"> 
                 <img src="/images/image-product-3-thumbnail.jpg" class="gallery__thumb-img" aria-hidden="true">
               </button>
-              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="3" aria-label="View expanded image 4" aria-selected="true">
+              <button type="button" class="gallery__thumb-wrapper-lightbox" data-target="3" role="tab" aria-label="View expanded image 4" aria-selected="true">
                 <img src="/images/image-product-4-thumbnail.jpg" class="gallery__thumb-img" aria-hidden="true">
               </button>
           </div> <!--.gallery__thumbnail-->
